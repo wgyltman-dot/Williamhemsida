@@ -39,30 +39,25 @@ const Education = () => {
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
-          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark  origin-top rounded-full dark:bg-secondary dark:shadow-3xl"
+          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark origin-top rounded-full dark:bg-secondary dark:shadow-3xl"
           style={{ scaleY: scrollYProgress }}
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
+
           <Details
-            type="Information and media technology"
-            time="Aug 2021-Jun 2024"
-            place="Kattegatt Tech College, Halmstad"
-            info="Relevant courses included, Web development, coding in replit with languages such as: HTML, CSS & JavaScript and libraries and frameworks such as Node.JS and Express.JS, Network Technology, Network Security, and Programing in C#."
+            type="The Residency – Founder in Residence"
+            time="2026"
+            place="San Francisco, California"
+            info="Selected as 1 of 25 startups from over 3,500 global applicants (0.7% acceptance rate) to join The Residency in San Francisco — one of Silicon Valley's most competitive early-stage startup programs. Among the youngest founding teams ever admitted."
           />
 
           <Details
-            type="Secondary school"
-            time="Aug 2017-Jun 2021"
-            place="Veinge School, Veinge"
-            info="Achieved the third higehst exit credit in my class: 275 merit points."
+            type="Yuncture Incubator"
+            time="2025–2026"
+            place="Gothenburg, Sweden"
+            info="Accelerated Rankad.ai through Yuncture's Gothenburg incubator, developing the product, closing initial client deals, and growing the waitlist before being accepted into The Residency in San Francisco."
           />
 
-          <Details
-            type="Online Coursework"
-            time="2022-Present"
-            place="Udemy, Coursera, LinkedIn Learning and edX"
-            info="Completed & currentley studying coursework in advanced topics such as Artificial intelligence, Programming by Harvard (CS50), and multiple other relevant subjects, for which I have obtained certificates."
-          />
         </ul>
       </div>
     </div>

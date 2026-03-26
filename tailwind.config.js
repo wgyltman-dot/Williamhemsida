@@ -71,6 +71,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("@tailwindcss/typography"),
     function ({ addVariant }) {
       addVariant("child", "& > *");
       addVariant("child-hover", "& > *:hover");

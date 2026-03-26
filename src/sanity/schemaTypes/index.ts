@@ -9,7 +9,8 @@ import project from '../schemas/project'
 import pressArticle from '../schemas/pressArticle'
 import certificate from '../schemas/certificate'
 import experience from '../schemas/experience'
+import review from '../schemas/review'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blockContentType, categoryType, postType, authorType, blogPost, project, pressArticle, certificate, experience],
+  types: [blockContentType, categoryType, postType, authorType, blogPost, project, pressArticle, certificate, experience, review],
 }

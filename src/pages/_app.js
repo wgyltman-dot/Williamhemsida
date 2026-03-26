@@ -14,17 +14,17 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Liam Karlsson",
-  url: "https://liamkarlsson.com",
-  description: "Personal portfolio of Liam Karlsson — Swedish freelance web developer and cyber security specialist.",
+  name: "William Gyltman",
+  url: "https://williamreviews.com",
+  description: "Personal portfolio of William Gyltman — Co-founder & CMO at Rankad.ai.",
   author: {
     "@type": "Person",
-    name: "Liam Karlsson",
-    url: "https://liamkarlsson.com",
-    jobTitle: "Freelance Web Developer & Cyber Security Specialist",
+    name: "William Gyltman",
+    url: "https://williamreviews.com",
+    jobTitle: "Co-founder & CMO at Rankad.ai",
     sameAs: [
-      "https://www.linkedin.com/in/liamkarlsson/",
-      "https://github.com/liamkarlsson"
+      "https://www.linkedin.com/in/williamgyltman/",
+      "https://github.com/wgyltman-dot"
     ],
   },
 };
@@ -32,10 +32,10 @@ const websiteSchema = {
 const siteNavSchema = {
   "@context": "https://schema.org",
   "@type": "SiteLinksSearchBox",
-  url: "https://liamkarlsson.com",
+  url: "https://williamreviews.com",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://liamkarlsson.com/?q={search_term_string}",
+    target: "https://williamreviews.com/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -47,7 +47,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}

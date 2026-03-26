@@ -86,8 +86,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-center">
           <CustomLink className="mr-4" href="/" title="Home" />
           <CustomLink className="mx-4" href="/about" title="About" />
-          <CustomLink className="mx-4" href="/projects" title="Projects" />
-          <CustomLink className="mx-4" href="/articles" title="Achievements" />
+          <CustomLink className="mx-4" href="/reviews" title="Reviews" />
           <CustomLink className="mx-4" href="/media" title="Media" />
           <CustomLink className="ml-4" href="/blog" title="Blog" />
         </nav>
@@ -96,7 +95,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener nofollow"
             className="w-6 mx-3"
-            href="https://x.com/LiamKarlsson05"
+            href="https://x.com/william_gyltman"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My X (Twitter) profile"
@@ -107,7 +106,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener nofollow"
             className="w-6 mx-3"
-            href="https://www.instagram.com/liamkarlsson__/"
+            href="https://www.instagram.com/williamgyltman/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My Instagram profile"
@@ -118,7 +117,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener nofollow"
             className="w-6 mx-3"
-            href="https://github.com/LKXIX"
+            href="https://github.com/wgyltman-dot"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My GitHub profile"
@@ -129,7 +128,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener nofollow"
             className="w-6 mx-3"
-            href="https://www.linkedin.com/in/liamkarlsson/"
+            href="https://www.linkedin.com/in/williamgyltman/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My LinkedIn profile"
@@ -164,8 +163,7 @@ const Navbar = () => {
           <nav className="flex items-center justify-center flex-col">
             <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/" title="Home" />
             <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/about" title="About" />
-            <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/projects" title="Projects" />
-            <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/articles" title="Achievements" />
+            <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/reviews" title="Reviews" />
             <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/media" title="Media" />
             <CustomMobileLink toggle={handleClick} className="lg:m-0 lg:my-2" href="/blog" title="Blog" />
           </nav>
@@ -174,7 +172,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener nofollow"
               className="w-6 m-1 mx-3 sm:mx-1"
-              href="https://x.com/LiamKarlsson05"
+              href="https://x.com/william_gyltman"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My X (Twitter) profile"
@@ -185,7 +183,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener nofollow"
               className="w-6 m-1 mx-3 sm:mx-1"
-              href="https://www.instagram.com/liamkarlsson__/"
+              href="https://www.instagram.com/williamgyltman/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My Instagram profile"
@@ -196,7 +194,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener nofollow"
               className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
-              href="https://github.com/LKXIX"
+              href="https://github.com/wgyltman-dot"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My GitHub profile"
@@ -207,7 +205,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener nofollow"
               className="w-6 m-1 mx-3 sm:mx-1"
-              href="https://www.linkedin.com/in/liamkarlsson/"
+              href="https://www.linkedin.com/in/williamgyltman/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My LinkedIn profile"

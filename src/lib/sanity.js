@@ -123,6 +123,54 @@ export async function getAllCertificates() {
   );
 }
 
+export async function getAllReviews() {
+  if (!client) return [];
+  return client.fetch(
+    `*[_type == "review"] | order(publishedAt desc) {
+      _id,
+      title,
+      slug,
+      rating,
+      verdict,
+      category,
+      productUrl,
+      excerpt,
+      publishedAt,
+      coverImage { asset, alt }
+    }`
+  );
+}
+
+export async function getReviewBySlug(slug) {
+  if (!client) return null;
+  return client.fetch(
+    `*[_type == "review" && slug.current == $slug][0] {
+      _id,
+      title,
+      slug,
+      rating,
+      verdict,
+      category,
+      productUrl,
+      excerpt,
+      publishedAt,
+      coverImage { asset, alt },
+      pros,
+      cons,
+      body,
+      seoTitle,
+      seoDescription
+    }`,
+    { slug }
+  );
+}
+
+export async function getAllReviewSlugs() {
+  if (!client) return [];
+  const reviews = await client.fetch(`*[_type == "review"] { slug }`);
+  return reviews.map((r) => ({ params: { slug: r.slug.current } }));
+}
+
 export async function getAllExperiences() {
   if (!client) return [];
   return client.fetch(
