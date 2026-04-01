@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN_CUSTOM;
+const GITHUB_TOKEN = process.env.TOKEN_CUSTOM;
 const REPO_OWNER = 'wgyltman-dot';
 const REPO_NAME = 'Williamhemsida';
 
