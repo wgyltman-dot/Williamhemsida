@@ -1,0 +1,53 @@
+name: Automated Content Publishing
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # Monday 7am UTC — blog post
+    - cron: '0 7 * * 2'   # Tuesday 7am UTC — blog post + review
+    - cron: '0 7 * * 3'   # Wednesday 7am UTC — blog post
+    - cron: '0 7 * * 4'   # Thursday 7am UTC — blog post + review
+    - cron: '0 7 * * 5'   # Friday 7am UTC — blog post
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+jobs:
+  publish-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install node-fetch
+
+      - name: Generate and publish blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN_CUSTOM: ${{ secrets.GITHUB_TOKEN_CUSTOM }}
+          DAY_OF_WEEK: ${{ github.run_id }}
+        run: node .github/scripts/generate-blog.js
+
+  publish-review:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 7 * * 2' || github.event.schedule == '0 7 * * 4' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install node-fetch
+
+      - name: Generate and publish review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN_CUSTOM: ${{ secrets.GITHUB_TOKEN_CUSTOM }}
+        run: node .github/scripts/generate-review.js
