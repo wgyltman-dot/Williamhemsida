@@ -27,7 +27,7 @@ jobs:
       - name: Generate and publish blog post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GITHUB_TOKEN_CUSTOM: ${{ secrets.GITHUB_TOKEN_CUSTOM }}
+          TOKEN_CUSTOM: ${{ secrets.TOKEN_CUSTOM }}
           DAY_OF_WEEK: ${{ github.run_id }}
         run: node .github/scripts/generate-blog.js
 
