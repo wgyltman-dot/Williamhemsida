@@ -1,0 +1,415 @@
+{
+  "blog": [
+    {
+      "topic": "how to check if your brand appears in ChatGPT results right now",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "why your competitors are showing up in ChatGPT and you are not",
+      "pillar": "Competitor Intelligence in AI Search",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "what is GEO generative engine optimisation and why it matters more than SEO in 2026",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how AI search is replacing Google for B2B buyers in 2026",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention subtly at the end only"
+    },
+    {
+      "topic": "the complete GEO guide for B2B SaaS companies",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to rank in Perplexity — a step by step guide for marketers",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to optimise your brand for Google AI Overviews in 2026",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "SEO specialist",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "GEO vs SEO — what is the difference and which should you invest in",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to track competitor visibility in ChatGPT and Perplexity",
+      "pillar": "Competitor Intelligence in AI Search",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "why most brands have near zero AI search visibility and what to do about it",
+      "pillar": "AI Search Visibility",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to get your B2B product recommended by ChatGPT",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "what B2B buyers search for in AI tools before making a purchase decision",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention subtly at the end only"
+    },
+    {
+      "topic": "how reviews and third party content directly improve your AI search visibility",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the ROI of GEO — how to measure AI search visibility impact on revenue",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to do a full GEO audit of your brand in under one hour",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "why brand consistency across online sources is critical for AI search visibility",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how e-commerce brands can win in AI search in 2026",
+      "pillar": "AI Search Visibility",
+      "audience": "E-commerce brand marketer",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to write content that gets cited by ChatGPT and Perplexity",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "AI search visibility benchmarks by industry — what good looks like in 2026",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how agencies can add GEO as a service and charge a premium for it",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how fast does GEO optimisation actually work — real timelines and expectations",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the brands winning in AI search right now and what they are doing differently",
+      "pillar": "Competitor Intelligence in AI Search",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to brief your content team on GEO without becoming a technical expert",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "why your SEO traffic is declining and how AI search is the real reason",
+      "pillar": "AI Search Visibility",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how structured data and schema markup improve your AI search visibility",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "SEO specialist",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the GEO content strategy that gets your brand cited in AI answers",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to use AI search as a competitive intelligence tool for your market",
+      "pillar": "Competitor Intelligence in AI Search",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "what CMOs need to know about AI search in 2026 — a practical guide",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to improve your brand authority for AI search without a big content team",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the difference between being mentioned in AI search and being recommended by it",
+      "pillar": "AI Search Visibility",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to pitch GEO investment to your CEO or board with data",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "GEO for startups — how early stage companies can build AI search visibility fast",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how product positioning affects your visibility in AI search results",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the GEO mistakes most B2B brands are making right now and how to avoid them",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to use customer reviews to boost your AI search visibility",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how PR and earned media directly increase your visibility in ChatGPT",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "what happens to your pipeline when you are invisible in AI search",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how AI search visibility compounds over time — the long game explained",
+      "pillar": "AI Search Visibility",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the GEO tools worth paying for in 2026 — an honest comparison",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to build a GEO strategy from scratch in 30 days",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how the Nordics are approaching AI search — what European B2B brands can learn",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to measure GEO performance when there is no standard metric yet",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "why the first mover advantage in GEO is real and closing fast",
+      "pillar": "AI Search Visibility",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to use FAQ content to dominate AI search results in your category",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "Digital marketing manager",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the hidden cost of ignoring AI search — what brands are losing without knowing it",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to make your B2B case studies work harder in AI search",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "what AI search means for your paid acquisition strategy in 2026",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention subtly at the end only"
+    },
+    {
+      "topic": "how to get your SaaS product featured in AI tool comparison answers",
+      "pillar": "Practical GEO Optimisation Guides",
+      "audience": "CEO / Founder",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "the relationship between domain authority and AI search visibility",
+      "pillar": "GEO — Generative Engine Optimisation",
+      "audience": "SEO specialist",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    },
+    {
+      "topic": "how to build a GEO reporting framework your board will actually understand",
+      "pillar": "AI Search Industry Data and Research",
+      "audience": "CMO / VP Marketing",
+      "mentionStyle": "Mention naturally as a solution alongside competitors"
+    }
+  ],
+  "reviews": [
+    {
+      "software": "Rankad.ai",
+      "category": "GEO and AI Search Optimisation",
+      "features": "autopilot optimisation, competitor tracking, multi-platform AI visibility tracking, historical trend data, automatic improvements on autopilot",
+      "competitors": "Profound, Otterly, Peec AI, manual monitoring",
+      "tone": "Mostly positive with minor caveats — honest independent review with disclosure of relationship"
+    },
+    {
+      "software": "Profound",
+      "category": "AI Search Visibility and GEO",
+      "features": "AI visibility tracking, competitor benchmarking, enterprise reporting, multi-platform monitoring, share of voice analytics",
+      "competitors": "Rankad.ai, Otterly, Peec AI",
+      "tone": "Honest — strong enterprise product but expensive starting at $399/month and no autopilot optimisation layer"
+    },
+    {
+      "software": "Otterly",
+      "category": "AI Search Monitoring",
+      "features": "AI search monitoring, brand mention tracking, competitor comparison, basic visibility reporting",
+      "competitors": "Rankad.ai, Profound, Peec AI",
+      "tone": "Honest — reasonable entry level option with meaningful feature limitations compared to more complete tools"
+    },
+    {
+      "software": "Peec AI",
+      "category": "GEO and AI Visibility Tracking",
+      "features": "AI search tracking, brand visibility scoring, competitor monitoring, trend analysis",
+      "competitors": "Rankad.ai, Profound, Otterly",
+      "tone": "Honest — early stage tool with promise but gaps in execution compared to category leaders"
+    },
+    {
+      "software": "SEMrush",
+      "category": "SEO and Digital Marketing Platform",
+      "features": "keyword research, rank tracking, competitor analysis, content optimisation, backlink analysis, site audit, position tracking",
+      "competitors": "Ahrefs, Moz, Google Search Console",
+      "tone": "Mostly positive — industry standard SEO tool but does not cover AI search visibility which is its biggest current gap"
+    },
+    {
+      "software": "Ahrefs",
+      "category": "SEO Tools",
+      "features": "backlink analysis, keyword research, content explorer, rank tracker, site audit, competitor research, content gap analysis",
+      "competitors": "SEMrush, Moz, Majestic",
+      "tone": "Mostly positive — best in class for backlinks and keyword research but no AI search visibility coverage"
+    },
+    {
+      "software": "Surfer SEO",
+      "category": "Content Optimisation and SEO",
+      "features": "content editor, SERP analyser, keyword research, content audit, AI writing assistance, content briefs, NLP optimisation",
+      "competitors": "Clearscope, MarketMuse, Frase",
+      "tone": "Mostly positive — excellent for content teams focused on Google rankings but does not address GEO"
+    },
+    {
+      "software": "Clearscope",
+      "category": "Content Optimisation",
+      "features": "content grading, keyword recommendations, competitor content analysis, content briefs, readability scoring, content inventory",
+      "competitors": "Surfer SEO, MarketMuse, Frase",
+      "tone": "Mostly positive — premium pricing justified by output quality for serious content teams"
+    },
+    {
+      "software": "HubSpot Marketing Hub",
+      "category": "Marketing Automation and CRM",
+      "features": "email marketing, landing pages, SEO tools, analytics, CRM integration, lead nurturing, automation workflows, social media tools",
+      "competitors": "Marketo, ActiveCampaign, Mailchimp, Salesforce Marketing Cloud",
+      "tone": "Mostly positive — powerful all-in-one platform but complex to implement and expensive at scale"
+    },
+    {
+      "software": "Moz Pro",
+      "category": "SEO Tools",
+      "features": "keyword research, rank tracking, link explorer, site crawl, on-page optimisation, local SEO, domain authority scoring",
+      "competitors": "SEMrush, Ahrefs, Google Search Console",
+      "tone": "Honest — solid tool with a strong community but has fallen behind SEMrush and Ahrefs in recent years"
+    },
+    {
+      "software": "Frase",
+      "category": "AI Content Optimisation",
+      "features": "AI content briefs, content optimisation, SERP research, question research, AI writing assistant, content scoring",
+      "competitors": "Surfer SEO, Clearscope, MarketMuse",
+      "tone": "Mostly positive — excellent value for money content optimisation tool for smaller teams"
+    },
+    {
+      "software": "MarketMuse",
+      "category": "Content Intelligence and SEO",
+      "features": "content planning, topic modelling, content briefs, content scoring, competitive content analysis, content inventory",
+      "competitors": "Clearscope, Surfer SEO, Frase",
+      "tone": "Mostly positive — powerful content intelligence but expensive and complex for small teams"
+    },
+    {
+      "software": "Google Search Console",
+      "category": "SEO and Search Performance Analytics",
+      "features": "search performance data, indexing status, core web vitals, URL inspection, sitemap submission, manual actions, AI Overview data",
+      "competitors": "SEMrush, Ahrefs, Bing Webmaster Tools",
+      "tone": "Very positive — free essential tool every website needs but limited without paid tools alongside it and no AI search coverage beyond Google"
+    },
+    {
+      "software": "BrightEdge",
+      "category": "Enterprise SEO Platform",
+      "features": "AI-powered SEO recommendations, content performance tracking, competitive intelligence, data cube, site auditing, share of voice",
+      "competitors": "Conductor, Botify, SEMrush Enterprise",
+      "tone": "Honest — enterprise-grade power but very expensive and significant overkill for most SMB and mid-market companies"
+    },
+    {
+      "software": "Conductor",
+      "category": "Enterprise SEO and Content Intelligence",
+      "features": "content optimisation, keyword research, competitive analysis, content performance tracking, workflow management, organic marketing platform",
+      "competitors": "BrightEdge, Botify, SEMrush",
+      "tone": "Mostly positive — strong content intelligence platform well suited to larger marketing teams with dedicated SEO resource"
+    }
+  ],
+  "used": {
+    "blog": [],
+    "reviews": []
+  }
+}
