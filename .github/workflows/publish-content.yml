@@ -49,5 +49,5 @@ jobs:
       - name: Generate and publish review
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GITHUB_TOKEN_CUSTOM: ${{ secrets.GITHUB_TOKEN_CUSTOM }}
+          TOKEN_CUSTOM: ${{ secrets.TOKEN_CUSTOM }}
         run: node .github/scripts/generate-review.js
