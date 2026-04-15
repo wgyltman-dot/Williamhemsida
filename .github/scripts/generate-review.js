@@ -55,7 +55,7 @@ async function publishToGitHub(filename, content, folder) {
 
   let sha;
   const checkRes = await fetch(url, {
-    headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+    headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}` , 'Accept': 'application/vnd.github.v3+json' }
   });
   if (checkRes.ok) {
     const existing = await checkRes.json();
