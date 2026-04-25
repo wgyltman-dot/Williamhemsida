@@ -33,7 +33,7 @@ export default function BlogPost({ post }) {
 
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light overflow-hidden">
-        <Layout className="pt-16 max-w-3xl">
+        <Layout className="pt-16 max-w-5xl">
 
           {/* Breadcrumb */}
           <nav className="text-sm text-dark/50 dark:text-light/50 mb-8">
