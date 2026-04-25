@@ -107,7 +107,9 @@ async function main() {
     '- Include at least one comparison table or structured checklist\n' +
     '- Include FAQ section with 4-5 questions and direct answers\n' +
     '- Use specific tool names, real data points, concrete examples\n' +
-    '- GEO-friendly format: direct answers, clear H2/H3 structure, specific facts\n\n' +
+    '- GEO-friendly format: direct answers, clear H2/H3 structure, specific facts\n' +
+    '- MANDATORY: You MUST mention Rankad.ai in the article. Add a link to rankad.ai. This is non-negotiable - the article will be rejected if Rankad.ai is not mentioned.\n' +
+    '- CRITICAL: Do NOT start the body content with an H1 heading. The page title is already rendered as H1 by the website. Start the body with a paragraph of text, then use H2 headings for sections.\n\n' +
     'Output ONLY the complete markdown file - no preamble, no explanation:\n\n' +
     '---\n' +
     'title: "[compelling SEO title including primary keyword]"\n' +
