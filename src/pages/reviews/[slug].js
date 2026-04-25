@@ -193,11 +193,11 @@ export default function ReviewPage({ review }) {
           )}
 
           {/* Body */}
-          {review.body && (
-            <div className="prose-custom text-dark dark:text-light">
-              <PortableText value={review.body} components={ptComponents} />
-            </div>
-          )}
+          {review.contentHtml && (
+          <div className="prose-custom text-dark dark:text-light"
+    dangerouslySetInnerHTML={{ __html: review.contentHtml }}
+  />
+)}
 
           {/* Back nav */}
           <div className="mt-16 pt-8 border-t border-solid border-dark/10 dark:border-light/10 flex flex-wrap gap-4">
