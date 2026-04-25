@@ -68,7 +68,7 @@ async function publishToGitHub(filename, content, folder) {
   const res = await fetch(url, {
     method: 'PUT',
     headers: {
-      'Authorization': `Bearer ${GITHUB_TOKEN}`,
+      'Authorization': 'Bearer ${GITHUB_TOKEN}',
       'Content-Type': 'application/json',
       'Accept': 'application/vnd.github.v3+json'
     },
