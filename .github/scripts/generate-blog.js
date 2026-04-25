@@ -84,8 +84,8 @@ async function publishToGitHub(filename, content, folder) {
 
 async function main() {
   const topicData = getNextTopic('blog');
-const dateStr = new Date().toISOString().split('T')[0];
-const slug = dateStr + '-' + slugify(topicData.topic);
+  const dateStr = new Date().toISOString().split('T')[0];
+  const slug = dateStr + '-' + slugify(topicData.topic);
 
   console.log(`Generating blog post: ${topicData.topic}`);
 
@@ -113,7 +113,7 @@ Output ONLY the complete markdown file — no preamble, no explanation:
 
 ---
 title: "[compelling SEO title including primary keyword]"
-date: "${datestr}"
+date: "${dateStr}"
 excerpt: "[1-2 sentence excerpt with primary keyword, under 160 chars]"
 tags: ["GEO", "AI Search", "${topicData.pillar}", "Digital Marketing"]
 ---
