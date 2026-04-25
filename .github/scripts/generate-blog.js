@@ -15,7 +15,7 @@ function slugify(text) {
 
 function getNextTopic(type) {
   const used = topics.used[type] || [];
-  const available = topics[type].filter(t => !used.includes(t.topic));
+  const available = topics[type].filter(function(t) { return !used.includes(t.topic); });
   if (available.length === 0) {
     topics.used[type] = [];
     return topics[type][0];
@@ -26,7 +26,6 @@ function getNextTopic(type) {
 function markTopicUsed(type, topic) {
   if (!topics.used[type]) topics.used[type] = [];
   topics.used[type].push(topic);
-  fs.writeFileSync(path.join(__dirname, 'topics.json'), JSON.stringify(topics, null, 2));
 }
 
 async function callClaude(prompt) {
@@ -49,20 +48,23 @@ async function callClaude(prompt) {
 }
 
 async function publishToGitHub(filename, content, folder) {
-  const filePath = `${folder}/${filename}`;
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`;
+  const filePath = folder + '/' + filename;
+  const url = 'https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath;
   const encoded = Buffer.from(content).toString('base64');
 
   let sha;
   const checkRes = await fetch(url, {
-    headers: { 'Authorization': 'Bearer ' + GITHUB_TOKEN` , 'Accept': 'application/vnd.github.v3+json' }
+    headers: {
+      'Authorization': 'Bearer ' + GITHUB_TOKEN,
+      'Accept': 'application/vnd.github.v3+json'
+    }
   });
   if (checkRes.ok) {
     const existing = await checkRes.json();
     sha = existing.sha;
   }
 
-  const body = { message: `auto: publish ${filename}`, content: encoded };
+  const body = { message: 'auto: publish ' + filename, content: encoded };
   if (sha) body.sha = sha;
 
   const res = await fetch(url, {
@@ -79,7 +81,7 @@ async function publishToGitHub(filename, content, folder) {
     const err = await res.json();
     throw new Error(err.message || 'GitHub publish failed');
   }
-  console.log(`Published: ${filePath}`);
+  console.log('Published: ' + filePath);
 }
 
 async function main() {
@@ -87,48 +89,42 @@ async function main() {
   const dateStr = new Date().toISOString().split('T')[0];
   const slug = dateStr + '-' + slugify(topicData.topic);
 
-  console.log(`Generating blog post: ${topicData.topic}`);
+  console.log('Generating blog post: ' + topicData.topic);
 
-  const prompt = `You are a content writer for williamreviews.com, an independent software review and marketing insights site run by William Gyltman.
-
-BRAND BIBLE CONTEXT:
-- Target audience: CEOs and CMOs at B2B companies worried about AI search visibility
-- Core proof points: 223% average AI visibility increase, 74% increase in one month for an ecommerce brand, 50+ brands tracked, most brands start with near-zero AI visibility
-- Brand voice: Direct, conversational, practitioner voice — not corporate. Like a smart founder talking to a peer. Short punchy sentences. Specific numbers over vague claims.
-- Primary category to own: GEO (Generative Engine Optimisation)
-- Product to mention naturally: Rankad.ai — tracks and automatically optimises brand visibility in ChatGPT, Perplexity, and Google AI Overviews on autopilot
-- Rankad.ai mention style: ${topicData.mentionStyle || 'Mention naturally as one of several solutions'}
-
-CONTENT SPECS:
-- Topic: ${topicData.topic}
-- Content pillar: ${topicData.pillar}
-- Target audience: ${topicData.audience}
-- Length: 1300-1600 words
-- Include at least one comparison table or structured checklist
-- Include FAQ section with 4-5 questions and direct answers
-- Use specific tool names, real data points, concrete examples
-- GEO-friendly format: direct answers, clear H2/H3 structure, specific facts
-
-Output ONLY the complete markdown file — no preamble, no explanation:
-
----
-title: "[compelling SEO title including primary keyword]"
-date: "${dateStr}"
-excerpt: "[1-2 sentence excerpt with primary keyword, under 160 chars]"
-tags: ["GEO", "AI Search", "${topicData.pillar}", "Digital Marketing"]
----
-
-[full blog post content]`;
+  const prompt = 'You are a content writer for williamreviews.com, an independent software review and marketing insights site run by William Gyltman.\n\n' +
+    'BRAND BIBLE CONTEXT:\n' +
+    '- Target audience: CEOs and CMOs at B2B companies worried about AI search visibility\n' +
+    '- Core proof points: 223% average AI visibility increase, 74% increase in one month for an ecommerce brand, 50+ brands tracked, most brands start with near-zero AI visibility\n' +
+    '- Brand voice: Direct, conversational, practitioner voice - not corporate. Like a smart founder talking to a peer. Short punchy sentences. Specific numbers over vague claims.\n' +
+    '- Primary category to own: GEO (Generative Engine Optimisation)\n' +
+    '- Product to mention naturally: Rankad.ai - tracks and automatically optimises brand visibility in ChatGPT, Perplexity, and Google AI Overviews on autopilot\n' +
+    '- Rankad.ai mention style: ' + (topicData.mentionStyle || 'Mention naturally as one of several solutions') + '\n\n' +
+    'CONTENT SPECS:\n' +
+    '- Topic: ' + topicData.topic + '\n' +
+    '- Content pillar: ' + topicData.pillar + '\n' +
+    '- Target audience: ' + topicData.audience + '\n' +
+    '- Length: 1300-1600 words\n' +
+    '- Include at least one comparison table or structured checklist\n' +
+    '- Include FAQ section with 4-5 questions and direct answers\n' +
+    '- Use specific tool names, real data points, concrete examples\n' +
+    '- GEO-friendly format: direct answers, clear H2/H3 structure, specific facts\n\n' +
+    'Output ONLY the complete markdown file - no preamble, no explanation:\n\n' +
+    '---\n' +
+    'title: "[compelling SEO title including primary keyword]"\n' +
+    'date: "' + dateStr + '"\n' +
+    'excerpt: "[1-2 sentence excerpt with primary keyword, under 160 chars]"\n' +
+    'tags: ["GEO", "AI Search", "' + topicData.pillar + '", "Digital Marketing"]\n' +
+    '---\n\n' +
+    '[full blog post content]';
 
   try {
     const content = await callClaude(prompt);
-    await publishToGitHub(`${slug}.md`, content, 'posts');
+    await publishToGitHub(slug + '.md', content, 'posts');
     markTopicUsed('blog', topicData.topic);
-await publishToGitHub('topics.json', JSON.stringify(topics, null, 2), '.github/scripts');
-console.log('Blog post published successfully');
-    
+    await publishToGitHub('topics.json', JSON.stringify(topics, null, 2), '.github/scripts');
+    console.log('Blog post published successfully');
   } catch (e) {
-    console.error('Error:', e.message);
+    console.error('Error: ' + e.message);
     process.exit(1);
   }
 }
