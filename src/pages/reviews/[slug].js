@@ -2,8 +2,7 @@ import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 import Link from "next/link";
-import { getAllReviewSlugs, getReviewBySlug, urlFor } from "@/lib/sanity";
-import { PortableText } from "@portabletext/react";
+import { getAllReviewSlugs, getReviewBySlug } from "../../lib/reviews";
 
 function formatDate(iso) {
   if (!iso) return "";
