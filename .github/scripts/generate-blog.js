@@ -113,7 +113,7 @@ Output ONLY the complete markdown file — no preamble, no explanation:
 
 ---
 title: "[compelling SEO title including primary keyword]"
-date: "${today}"
+date: "${datestr}"
 excerpt: "[1-2 sentence excerpt with primary keyword, under 160 chars]"
 tags: ["GEO", "AI Search", "${topicData.pillar}", "Digital Marketing"]
 ---
