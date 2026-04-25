@@ -124,7 +124,9 @@ tags: ["GEO", "AI Search", "${topicData.pillar}", "Digital Marketing"]
     const content = await callClaude(prompt);
     await publishToGitHub(`${slug}.md`, content, 'posts');
     markTopicUsed('blog', topicData.topic);
-    console.log('Blog post published successfully');
+await publishToGitHub('topics.json', JSON.stringify(topics, null, 2), '.github/scripts');
+console.log('Blog post published successfully');
+    
   } catch (e) {
     console.error('Error:', e.message);
     process.exit(1);
