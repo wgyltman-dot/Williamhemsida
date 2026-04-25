@@ -84,10 +84,8 @@ async function publishToGitHub(filename, content, folder) {
 
 async function main() {
   const topicData = getNextTopic('blog');
-  const today = new Date().toISOString().split('T')[0];
-  const today = new Date();
-  const dateStr = today.toISOString().split('T')[0];
-  const slug = dateStr + '-' + slugify(topicData.topic);
+const dateStr = new Date().toISOString().split('T')[0];
+const slug = dateStr + '-' + slugify(topicData.topic);
 
   console.log(`Generating blog post: ${topicData.topic}`);
 
