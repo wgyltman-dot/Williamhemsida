@@ -4,7 +4,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { getAllReviews } from "@/lib/sanity";
+import { getAllReviews } from "../../lib/reviews";
 
 function formatDate(iso) {
   if (!iso) return "";
