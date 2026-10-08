@@ -1,20 +1,8 @@
 ---
 title: "Top AI Visibility Platforms for Niche Businesses"
-seoTitle: "Top AI Visibility Platforms for Niche Businesses"
-seoDescription: "Discover the best AI visibility platforms for niche market businesses and explore alternatives to Outranking."
-excerpt: "Discover the best AI visibility platforms for niche market businesses and explore alternatives to Outranking."
 date: "2026-10-05"
-slug: top-ai-visibility-platforms-for-niche-businesses
-tags:
-  - AI visibility platforms
-  - niche market businesses
-  - Outranking alternatives
-  - AI SEO tools
-  - content optimization
-authorName: William Gyltman
-authorTitle: CMO
-coverImage: "/images/blog/1906770e-4eca-4d2f-a8ac-1bdd1b6fdc67-cover.png"
-coverImageAlt: "Top AI Visibility Platforms for Niche Businesses"
+excerpt: "Discover the best AI visibility platforms for niche market businesses and explore alternatives to Outranking."
+tags: ["AI visibility platforms", "niche market businesses", "Outranking alternatives", "AI SEO tools", "content optimization"]
 ---
 
 # Top AI Visibility Platforms for Niche Market Businesses: Outranking Alternatives

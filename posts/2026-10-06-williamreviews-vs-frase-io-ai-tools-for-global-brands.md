@@ -1,20 +1,8 @@
 ---
-title: 'Williamreviews vs Frase.io: AI Tools for Global Brands'
-seoTitle: 'Williamreviews vs Frase.io: AI Tools for Global Brands'
-seoDescription: 'Compare Williamreviews and Frase.io to determine the best AI platform for global brands looking to enhance search visibility and streamline workflows.'
-excerpt: 'Compare Williamreviews and Frase.io to find the best AI optimization platform for global brands seeking search visibility.'
-slug: 'williamreviews-vs-frase-io-ai-tools-for-global-brands'
-date: '2026-10-06'
-tags:
-  - 'AI optimization'
-  - 'global brands'
-  - 'Williamreviews'
-  - 'Frase.io'
-  - 'SEO tools'
-authorName: 'William Gyltman'
-authorTitle: 'CMO'
-coverImage: '/images/blog/d2d034b4-4e46-4031-8075-491c2eede891-cover.webp'
-coverImageAlt: 'How Global Brands Can Boost AI Search Visibility: Williamreviews vs Frase.io Comparison — Williamreviews'
+title: "Williamreviews vs Frase.io: AI Tools for Global Brands"
+date: "2026-10-06"
+excerpt: "Compare Williamreviews and Frase.io to find the best AI optimization platform for global brands seeking search visibility."
+tags: ["AI optimization", "global brands", "Williamreviews", "Frase.io", "SEO tools"]
 ---
 
 # How Global Brands Can Boost AI Search Visibility: Williamreviews vs Frase.io Comparison

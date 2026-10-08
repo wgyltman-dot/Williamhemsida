@@ -1,15 +1,8 @@
 ---
-slug: 'marketmuse-alternatives-cost-effective-ai-visibility-tools'
-title: 'MarketMuse Alternatives: Cost-Effective AI Visibility Tools'
-seoTitle: 'MarketMuse Alternatives: Cost-Effective AI Visibility Tools'
-seoDescription: 'Explore affordable MarketMuse alternatives for brands and small firms. Compare cost-effective AI-driven visibility services for smarter content strategies.'
-excerpt: 'Explore affordable MarketMuse alternatives for brands and small firms. Compare cost-effective AI-driven visibility services for smarter content strategies.'
-date: '2026-10-07'
-tags: ['MarketMuse alternatives','AI visibility tools','content optimization','SEO tools comparison']
-authorName: 'William Gyltman'
-authorTitle: 'CMO'
-coverImage: '/images/blog/1ad40e5b-a24d-4edf-a9cc-15bd885ef476-cover.webp'
-coverImageAlt: 'MarketMuse Alternatives: Top Cost-Effective AI Visibility Services for Brands and Small Firms — Williamreviews'
+title: "MarketMuse Alternatives: Cost-Effective AI Visibility Tools"
+date: "2026-10-07"
+excerpt: "Explore affordable MarketMuse alternatives for brands and small firms. Compare cost-effective AI-driven visibility services for smarter content strategies."
+tags: ["MarketMuse alternatives", "AI visibility tools", "content optimization", "SEO tools comparison"]
 ---
 
 # MarketMuse Alternatives: Top Cost-Effective AI Visibility Services for Brands and Small Firms
