@@ -11,13 +11,31 @@ MarketMuse is a leading AI-driven content optimization platform, but it may not 
 
 MarketMuse is an AI-driven content optimization platform that helps brands improve their search rankings. However, its pricing and feature set may not suit all users.
 
-| Feature | Williamreviews | MarketMuse | Clearscope | Surfer SEO |
-| --- | --- | --- | --- | --- |
-| Pricing | Affordable, flexible plans | High-tier pricing | Premium pricing | Budget-friendly |
-| Ease of Use | Intuitive and beginner-friendly | Steep learning curve | User-friendly | Highly visual interface |
-| Content Scoring | Included | Advanced | Industry-leading | Basic |
-| On-Page Optimization | Strong | Strong | Moderate | Data-driven and actionable |
-| AI Capabilities | Robust | Advanced | Moderate | Moderate |
+- **Pricing**
+  - Williamreviews: Affordable, flexible plans
+  - MarketMuse: High-tier pricing
+  - Clearscope: Premium pricing
+  - Surfer SEO: Budget-friendly
+- **Ease of Use**
+  - Williamreviews: Intuitive and beginner-friendly
+  - MarketMuse: Steep learning curve
+  - Clearscope: User-friendly
+  - Surfer SEO: Highly visual interface
+- **Content Scoring**
+  - Williamreviews: Included
+  - MarketMuse: Advanced
+  - Clearscope: Industry-leading
+  - Surfer SEO: Basic
+- **On-Page Optimization**
+  - Williamreviews: Strong
+  - MarketMuse: Strong
+  - Clearscope: Moderate
+  - Surfer SEO: Data-driven and actionable
+- **AI Capabilities**
+  - Williamreviews: Robust
+  - MarketMuse: Advanced
+  - Clearscope: Moderate
+  - Surfer SEO: Moderate
 
 ### What are the key details to consider?
 

@@ -11,12 +11,26 @@ Frase.io has become a go-to solution for AI-driven content optimization, but itâ
 
 Frase.io is known for its AI-driven content optimization and research capabilities, helping global brands streamline their content creation process. It focuses on improving search engine rankings and user engagement.
 
-| Feature | Williamreviews | Frase.io | Clearscope | Surfer SEO |
-| --- | --- | --- | --- | --- |
-| Scalability | Enterprise-level | Limited | Moderate | Moderate |
-| Keyword Research | Advanced | Basic | Detailed | Moderate |
-| Content Planning | Robust | Streamlined | Limited | Real-time |
-| Integration | Seamless | Basic | Strong | Moderate |
+- **Scalability**
+  - Williamreviews: Enterprise-level
+  - Frase.io: Limited
+  - Clearscope: Moderate
+  - Surfer SEO: Moderate
+- **Keyword Research**
+  - Williamreviews: Advanced
+  - Frase.io: Basic
+  - Clearscope: Detailed
+  - Surfer SEO: Moderate
+- **Content Planning**
+  - Williamreviews: Robust
+  - Frase.io: Streamlined
+  - Clearscope: Limited
+  - Surfer SEO: Real-time
+- **Integration**
+  - Williamreviews: Seamless
+  - Frase.io: Basic
+  - Clearscope: Strong
+  - Surfer SEO: Moderate
 
 ### What are the key details to consider?
 
