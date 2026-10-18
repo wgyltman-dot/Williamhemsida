@@ -5,8 +5,6 @@ excerpt: "Discover the top AI tools to enhance search visibility for non-profits
 tags: ["AI tools", "non-profit SEO", "search visibility", "donor engagement"]
 ---
 
-# Best AI Tools for Non-Profit Search Visibility
-
 Non-profits often struggle to maintain strong online visibility, which is essential for attracting donors and driving impact. AI-powered SEO tools can help streamline content optimization, improve search rankings, and enhance audience engagement.
 
 ### What are the key takeaways?
