@@ -1,19 +1,8 @@
 ---
-slug: "best-ai-tools-for-non-profit-search-visibility"
 title: "Best AI Tools for Non-Profit Search Visibility"
-seoTitle: "Best AI Tools for Non-Profit Search Visibility"
-seoDescription: "Explore the best AI tools designed to boost search visibility, enhance donor engagement, and strengthen the online presence of non-profits."
-excerpt: "Discover the top AI tools to enhance search visibility for non-profits, boost traffic, and improve online impact."
 date: "2026-09-08"
-tags:
-  - "AI tools"
-  - "non-profit SEO"
-  - "search visibility"
-  - "donor engagement"
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "/images/blog/230803a9-5726-4bb4-8485-05922acdbdf0-cover.webp"
-coverImageAlt: "Best AI Tools for Non-Profit Search Visibility — Williamreviews"
+excerpt: "Discover the top AI tools to enhance search visibility for non-profits, boost traffic, and improve online impact."
+tags: ["AI tools", "non-profit SEO", "search visibility", "donor engagement"]
 ---
 
 # Best AI Tools for Non-Profit Search Visibility

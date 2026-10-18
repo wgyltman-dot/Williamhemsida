@@ -1,18 +1,8 @@
 ---
-slug: "clearscope-alternatives-for-ai-seo-in-2026"
 title: "Clearscope Alternatives for AI SEO in 2026"
-seoTitle: "Clearscope Alternatives for AI SEO in 2026"
-seoDescription: "Discover the best Clearscope alternatives for AI-driven search optimization in 2026. Compare top platforms like Williamreviews, MarketMuse, and Surfer SEO."
-excerpt: "Explore the leading alternatives to Clearscope for AI-driven search optimization in 2026, comparing platforms like Williamreviews, MarketMuse, and Surfer SEO."
 date: "2026-09-08"
-tags:
-  - "AI SEO tools"
-  - "Clearscope alternatives"
-  - "search optimization platforms"
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "public/images/blog/3d3e7313-73ee-4b5c-b972-58d227d60e8b-cover.webp"
-coverImageAlt: "Clearscope Alternatives: Top Platforms for AI Search Optimization in 2026 — Williamreviews"
+excerpt: "Explore the leading alternatives to Clearscope for AI-driven search optimization in 2026, comparing platforms like Williamreviews, MarketMuse, and Surfer SEO."
+tags: ["AI SEO tools", "Clearscope alternatives", "search optimization platforms"]
 ---
 
 # Clearscope Alternatives: Top Platforms for AI Search Optimization in 2026

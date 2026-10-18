@@ -1,15 +1,8 @@
 ---
-slug: "top-marketmuse-alternatives-for-ai-search-optimization"
 title: "Top MarketMuse Alternatives for AI Search Optimization"
-seoTitle: "Top MarketMuse Alternatives for AI Search Optimization"
-seoDescription: "Explore the best MarketMuse alternatives for AI-driven search optimization. Compare Clearscope, Surfer SEO, and more to find the right tool for your brand."
+date: "2026-09-11"
 excerpt: "Explore the best MarketMuse alternatives for AI-driven search optimization, including Williamreviews, Frase.io, and Surfer SEO, to find the right tool for your brand."
-date: "2026-09-11T00:00:00.000Z"
-tags: ["MarketMuse alternatives","AI search optimization","SEO tools comparison"]
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "/images/blog/1bee13f6-ebef-42e5-a431-1d7c16687292-cover.webp"
-coverImageAlt: "MarketMuse Alternatives for Brand Search Optimization — Williamreviews"
+tags: ["MarketMuse alternatives", "AI search optimization", "SEO tools comparison"]
 ---
 
 # MarketMuse Alternatives for Brand Search Optimization

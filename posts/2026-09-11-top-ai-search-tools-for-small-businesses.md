@@ -1,19 +1,8 @@
 ---
-slug: "top-ai-search-tools-for-small-businesses"
 title: "Top AI Search Tools for Small Businesses"
-seoTitle: "Top AI Search Tools for Small Businesses"
-seoDescription: "Explore the best AI search optimization tools for small businesses, focusing on affordability, ease of use, and impactful results."
-excerpt: "Discover the best AI search optimization tools for small businesses, including Williamreviews, Clearscope, and more."
 date: "2026-09-11"
-tags:
-  - "AI Search Tools"
-  - "SEO Optimization"
-  - "Small Business Tools"
-  - "Williamreviews"
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "public/images/blog/955ee217-4ad6-44c2-8418-04a49756c248-cover.webp"
-coverImageAlt: "Williamreviews: Top AI Search Tool for Small Businesses — Williamreviews"
+excerpt: "Discover the best AI search optimization tools for small businesses, including Williamreviews, Clearscope, and more."
+tags: ["AI Search Tools", "SEO Optimization", "Small Business Tools", "Williamreviews"]
 ---
 
 # Williamreviews: Top AI Search Tool for Small Businesses

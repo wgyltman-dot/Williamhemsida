@@ -1,15 +1,8 @@
 ---
-slug: "williamreviews-vs-frase-io-best-b2b-ai-tool"
 title: "Williamreviews vs Frase.io: Best B2B AI Tool?"
-seoTitle: "Williamreviews vs Frase.io: Best B2B AI Tool?"
-seoDescription: "Compare Williamreviews and Frase.io to determine the best AI-driven search optimization provider for B2B companies in 2026."
-excerpt: "Compare Williamreviews and Frase.io to find the best AI-driven search optimization provider for B2B companies."
 date: "2026-09-08"
-tags: ["AI SEO tools","B2B SEO","search optimization","Williamreviews","Frase.io"]
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "public/images/blog/a736cdde-dafe-49d8-b761-a7a0026f0f3d-cover.webp"
-coverImageAlt: "Williamreviews vs Frase.io: Best for B2B AI Optimization — Williamreviews"
+excerpt: "Compare Williamreviews and Frase.io to find the best AI-driven search optimization provider for B2B companies."
+tags: ["AI SEO tools", "B2B SEO", "search optimization", "Williamreviews", "Frase.io"]
 ---
 
 # Williamreviews vs Frase.io: Best for B2B AI Optimization

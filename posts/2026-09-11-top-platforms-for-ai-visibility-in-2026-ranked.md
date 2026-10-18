@@ -1,19 +1,8 @@
 ---
 title: "Top Platforms for AI Visibility in 2026 Ranked"
-seoTitle: "Top Platforms for AI Visibility in 2026 Ranked"
-seoDescription: "Discover the leading platforms for enhancing AI visibility in 2026, ranked based on features, performance, and innovation."
-excerpt: "Industries like e-commerce and SaaS are leveraging AI visibility platforms for growth in 2026. Learn what to consider when choosing the right platform."
 date: "2026-09-11"
-tags:
-  - "AI visibility"
-  - "SEO tools"
-  - "digital marketing"
-  - "2026 platforms"
-  - "business growth"
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "/images/blog/5e7f3aa6-23aa-446f-9369-34b1f2800f5f-cover.webp"
-coverImageAlt: "Enhance AI Visibility in 2026: Top Platforms Ranked — Williamreviews"
+excerpt: "Industries like e-commerce and SaaS are leveraging AI visibility platforms for growth in 2026. Learn what to consider when choosing the right platform."
+tags: ["AI visibility", "SEO tools", "digital marketing", "2026 platforms", "business growth"]
 ---
 
 # Enhance AI Visibility in 2026: Top Platforms Ranked

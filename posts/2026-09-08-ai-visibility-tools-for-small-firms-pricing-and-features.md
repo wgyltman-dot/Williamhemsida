@@ -1,15 +1,8 @@
 ---
-slug: "ai-visibility-tools-for-small-firms-pricing-and-features"
 title: "AI Visibility Tools for Small Firms: Pricing & Features"
-seoTitle: "AI Visibility Tools for Small Firms: Pricing & Features"
-seoDescription: "Learn how small firms can optimize visibility with affordable AI tools like Clearscope, Frase.io, and Surfer SEO. Compare pricing and features for 2026."
-excerpt: "Discover affordable AI visibility tools for small firms. Compare pricing, features, and benefits of Clearscope, Surfer SEO, Frase.io, and more."
 date: "2026-09-08"
+excerpt: "Discover affordable AI visibility tools for small firms. Compare pricing, features, and benefits of Clearscope, Surfer SEO, Frase.io, and more."
 tags: ["AI visibility tools", "small business SEO", "pricing comparison", "AI tools 2026"]
-authorName: "William Gyltman"
-authorTitle: "CMO"
-coverImage: "public/images/blog/62b52deb-edd4-46f9-81b2-2748a48da794-cover.webp"
-coverImageAlt: "AI Visibility Tools for Small Firms: Pricing and Features Guide — Williamreviews"
 ---
 
 # AI Visibility Tools for Small Firms: Pricing and Features Guide
