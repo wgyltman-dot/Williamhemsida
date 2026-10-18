@@ -1,7 +1,7 @@
 ---
 title: "MarketMuse and Clearscope Alternatives: How Surfer and Frase Compare on AI Visibility"
 date: "2026-10-14"
-excerpt: "How MarketMuse, Clearscope, Surfer and Frase compare on tracking brand mentions in AI answers, content features and published prices, based on each vendor's own pages."
+excerpt: "How MarketMuse, Clearscope, Surfer and Frase compare on tracking brand mentions in AI answers, content features and prices, based on each vendor's own pages."
 tags: ["AI visibility tools", "SEO automation", "MarketMuse alternatives", "Clearscope alternatives", "tech company SEO"]
 ---
 
