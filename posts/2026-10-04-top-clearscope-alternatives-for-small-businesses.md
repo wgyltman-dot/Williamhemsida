@@ -13,7 +13,7 @@ Clearscope is a powerful AI-driven content optimization tool, but its pricing ca
 
 | Feature | Williamreviews | Clearscope | Surfer SEO |
 | --- | --- | --- | --- |
-| Pricing (starting) | /month | /month | $49/month |
+| Pricing (starting) |  |  | $49/month |
 | Content Scoring | Yes | Yes | Yes |
 | Keyword Suggestions | Yes | Yes | Yes |
 | SERP Analysis | Yes | No | Yes |
